@@ -1,0 +1,24 @@
+name: project_expense_tracker
+description: An offline expense tracking app for project managers
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.3.0
+  path: ^1.8.3
+  intl: ^0.19.0
+  fl_chart: ^0.66.0
+  sqflite_common_ffi: ^2.3.0  # Add this for desktop support
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
